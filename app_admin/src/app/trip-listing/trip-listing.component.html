@@ -1,0 +1,18 @@
+<!-- <pre>{{ trips | json }}</pre> -->
+ <div *ngIf="isLoggedIn()">
+    <button (click) = "addTrip()" class="btn btn-info">Add Trip</button>
+ </div>
+
+<div class="row">
+    <div *ngFor="let trip of trips" class="col-md-4">
+        <app-trip-card [trip]="trip" class="card-deck mt-2"></app-trip-card>
+    </div>
+</div>
+
+<p *ngIf="message && trips?.length === 0">{{ message }}</p>
+
+<nav *ngIf="totalPages > 1" aria-label="Trip pages">
+    <button type="button" class="btn btn-secondary" (click)="changePage(page - 1)" [disabled]="page <= 1">Previous</button>
+    <span> Page {{ page }} of {{ totalPages }} </span>
+    <button type="button" class="btn btn-secondary" (click)="changePage(page + 1)" [disabled]="page >= totalPages">Next</button>
+</nav>

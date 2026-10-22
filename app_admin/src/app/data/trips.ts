@@ -1,0 +1,175 @@
+export const trips = [
+
+    {
+        "code" : "GALR210214",
+        "name" : "Gale Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-02-14T08:00:00Z",
+        "resort" : "Emerald Bay, 3 stars",
+        "perPerson" : "799.00",
+        "image" : "reef1.jpg",
+        "description" : "<p>Gale Reef offers a warm, welcoming retreat with clear lagoons, vibrant reef life, and easy access to tropical beaches. Explore colorful coral gardens, enjoy calm swimming waters, and relax at the resort after each day on the water.</p><p>With gentle currents and friendly local guides, this getaway is ideal for guests seeking a mix of adventure and comfort in a beautiful island setting.</p>"
+    } , {
+        "code" : "DAWR210315",
+        "name" : "Dawson's Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-03-15T08:00:00Z",
+        "resort" : "Blue Lagoon, 4 stars",
+        "perPerson" : "1199.00",
+        "image" : "reef2.jpg",
+        "description" : "<p>Dawson's Reef offers clear, shallow lagoons and colorful coral gardens for easy snorkeling and relaxed island afternoons.</p><p>Enjoy a comfortable stay at Blue Lagoon, with warm waters, attentive service, and beautiful views across the reef.</p>"
+    } , {
+        "code" : "CLAR210621",
+        "name" : "Claire's Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-06-21T08:00:00Z",
+        "resort" : "Coral Sands, 5 stars",
+        "perPerson" : "1999.00",
+        "image" : "reef3.jpg",
+        "description" : "<p>Claire's Reef is a premium escape with vibrant marine life, calm turquoise water, and elegant accommodations near the shore.</p><p>Guests can explore coral formations, unwind on the beach, and enjoy a refined island experience at Coral Sands.</p>"
+    } , {
+        "code" : "MISR210710",
+        "name" : "Mistral Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-07-10T08:00:00Z",
+        "resort" : "Azure Cove, 4 stars",
+        "perPerson" : "1499.00",
+        "image" : "",
+        "description" : "<p>Mistral Reef Discover brilliant coral gardens and quiet lagoons surrounded by clear tropical water. Enjoy guided snorkeling and relaxing days along the coast.</p><p>Our local guides share the region's marine wildlife and help guests make the most of every reef adventure.</p>"
+    } , {
+        "code" : "SOBR210815",
+        "name" : "Solana Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-08-15T08:00:00Z",
+        "resort" : "Sunset Harbor, 3 stars",
+        "perPerson" : "999.00",
+        "image" : "",
+        "description" : "<p>Solana Reef offers warm waters, colorful fish, and peaceful beaches for travelers seeking a memorable island escape.</p><p>Spend your days exploring the reef and your evenings enjoying welcoming island hospitality.</p>"
+    } , {
+        "code" : "TIDR210920",
+        "name" : "Tidewater Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-09-20T08:00:00Z",
+        "resort" : "Pearl Point, 5 stars",
+        "perPerson" : "2199.00",
+        "image" : "",
+        "description" : "<p>Tidewater Reef combines vibrant underwater scenery with comfortable island living and spectacular ocean views.</p><p>Explore hidden coves, swim among tropical fish, and unwind at the resort after each day's adventure.</p>"
+    } , {
+        "code" : "CORR211025",
+        "name" : "Coral Ridge Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-10-25T08:00:00Z",
+        "resort" : "Reef View, 4 stars",
+        "perPerson" : "1399.00",
+        "image" : "",
+        "description" : "<p>Coral Ridge Reef features dramatic coral formations, gentle waves, and a relaxed setting for ocean lovers.</p><p>Join experienced guides for reef excursions and discover the natural beauty of the surrounding islands.</p>"
+    } , {
+        "code" : "LAGR211130",
+        "name" : "Laguna Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2021-11-30T08:00:00Z",
+        "resort" : "Laguna Azul, 3 stars",
+        "perPerson" : "1099.00",
+        "image" : "",
+        "description" : "<p>Laguna Reef is a welcoming getaway with calm blue water, soft sand, and abundant marine life close to shore.</p><p>Enjoy unhurried days on the beach and memorable snorkeling trips through the lagoon.</p>"
+    } , {
+        "code" : "SEAR220115",
+        "name" : "Seabreeze Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-01-15T08:00:00Z",
+        "resort" : "Seabreeze Bay, 4 stars",
+        "perPerson" : "1299.00",
+        "image" : "",
+        "description" : "<p>Seabreeze Reef invites guests to explore clear shallows filled with coral, rays, and tropical fish.</p><p>Relax by the water, learn about local conservation, and enjoy a comfortable island retreat.</p>"
+    } , {
+        "code" : "AQUR220220",
+        "name" : "Aqua Rose Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-02-20T08:00:00Z",
+        "resort" : "Rosewater Resort, 5 stars",
+        "perPerson" : "2399.00",
+        "image" : "",
+        "description" : "<p>Aqua Rose Reef provides a refined island experience with bright coral gardens and quiet turquoise bays.</p><p>Take part in guided dives or simply enjoy the peaceful shoreline and attentive resort service.</p>"
+    } , {
+        "code" : "BAYR220325",
+        "name" : "Baycrest Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-03-25T08:00:00Z",
+        "resort" : "Baycrest Lodge, 3 stars",
+        "perPerson" : "899.00",
+        "image" : "",
+        "description" : "<p>Baycrest Reef is an easygoing coastal escape with sheltered waters and colorful reefs suitable for every explorer.</p><p>Discover island trails, enjoy fresh local cuisine, and make lasting memories by the sea.</p>"
+    } , {
+        "code" : "MARR220430",
+        "name" : "Mariner's Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-04-30T08:00:00Z",
+        "resort" : "Mariner's Point, 4 stars",
+        "perPerson" : "1599.00",
+        "image" : "",
+        "description" : "<p>Mariner's Reef brings together lively underwater habitats, open ocean views, and welcoming island traditions.</p><p>Set out on daily boat trips and return to a comfortable resort overlooking the reef.</p>"
+    } , {
+        "code" : "PALR220605",
+        "name" : "Palm Haven Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-06-05T08:00:00Z",
+        "resort" : "Palm Haven, 3 stars",
+        "perPerson" : "949.00",
+        "image" : "",
+        "description" : "<p>Palm Haven Reef offers swaying palms, calm lagoons, and easy access to some of the coast's most beautiful coral.</p><p>Enjoy a relaxed schedule filled with swimming, snorkeling, and restful afternoons on the sand.</p>"
+    } , {
+        "code" : "STAR220715",
+        "name" : "Starfish Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-07-15T08:00:00Z",
+        "resort" : "Starfish Bay, 4 stars",
+        "perPerson" : "1349.00",
+        "image" : "",
+        "description" : "<p>Starfish Reef is known for its lively shallows, friendly guides, and beautiful sunsets over the water.</p><p>Explore the reef at a comfortable pace and enjoy a restful stay in a scenic coastal resort.</p>"
+    } , {
+        "code" : "ISLR220820",
+        "name" : "Island Pearl Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-08-20T08:00:00Z",
+        "resort" : "Island Pearl, 5 stars",
+        "perPerson" : "2299.00",
+        "image" : "",
+        "description" : "<p>Island Pearl Reef surrounds a tranquil retreat with pristine water, vibrant sea life, and secluded beaches.</p><p>Spend the week diving, sailing, and enjoying the thoughtful comforts of a premium island resort.</p>"
+    } , {
+        "code" : "WAVR220925",
+        "name" : "Wavecrest Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-09-25T08:00:00Z",
+        "resort" : "Wavecrest Inn, 3 stars",
+        "perPerson" : "1049.00",
+        "image" : "",
+        "description" : "<p>Wavecrest Reef offers a relaxed base for discovering colorful coral shelves and peaceful coastal scenery.</p><p>Choose from snorkeling, kayaking, or quiet walks along the island's sunny beaches.</p>"
+    } , {
+        "code" : "MOOR221030",
+        "name" : "Moonrise Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-10-30T08:00:00Z",
+        "resort" : "Moonrise Cove, 4 stars",
+        "perPerson" : "1449.00",
+        "image" : "",
+        "description" : "<p>Moonrise Reef pairs clear tropical water with peaceful evenings and a richly varied underwater landscape.</p><p>Discover quiet bays by boat and relax at the cove after a day of island exploration.</p>"
+    } , {
+        "code" : "EMBR221205",
+        "name" : "Ember Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2022-12-05T08:00:00Z",
+        "resort" : "Ember Sands, 5 stars",
+        "perPerson" : "2499.00",
+        "image" : "",
+        "description" : "<p>Ember Reef is a spectacular destination with brilliant sunsets, thriving coral, and elegant seaside accommodations.</p><p>Enjoy expert-led excursions, fine island dining, and peaceful time beside the sea.</p>"
+    } , {
+        "code" : "TROP230110",
+        "name" : "Tropical Dawn Reef",
+        "length" : "4 nights / 5 days",
+        "start" : "2023-01-10T08:00:00Z",
+        "resort" : "Dawn Lagoon, 4 stars",
+        "perPerson" : "1549.00",
+        "image" : "",
+        "description" : "<p>Tropical Dawn Reef welcomes guests with bright morning skies, calm lagoons, and colorful marine life.</p><p>Start each day with an island adventure and end it surrounded by the comfort of a peaceful seaside resort.</p>"
+    }
+];
